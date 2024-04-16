@@ -23,6 +23,14 @@ header {
 
 }
 
+.hamburger {
+    display: none; 
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff; 
+  }
+
 nav {
     display: flex;
     align-items: center;
@@ -176,14 +184,38 @@ h1 {
     margin: 20px auto; 
 }
 
-
-  .hamburger {
-    display: none; 
-    font-size: 24px;
-    background: none;
-    border: none;
+  footer {
+    background-color: #004B84; 
     color: #fff; 
-  }
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    max-width: 1200px; 
+
+}
+
+.footer-logo {
+    width: auto;
+    height: 40px; 
+}
+
+.social-icons {
+    
+}
+
+.social-icon {
+    margin-left: 10px; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.fab {
+    font-size: 24px; 
+}
   
   @media (max-width: 1068px) {
     .contact-section {
