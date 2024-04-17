@@ -303,6 +303,44 @@ h1 {
   transition: background-color 0.3s; 
 }
 
+* { box-sizing: border-box; }
+
+.slideshow-container {
+  max-width: 1000px; 
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.mySlides {
+  display: inline-flex; 
+  width: 1000px; 
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#slideshow-image {
+  vertical-align: middle;
+  width: auto; 
+  height: auto;
+}
+
+.fade {
+  animation-name: fadeIn;
+  animation-duration: 3.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .pink-rect {
 
   bottom: 0;
@@ -388,6 +426,10 @@ h1 {
       flex-direction: column;
       padding: 20px;
     }
+
+    .mySlides {
+      width: 100%;
+    }
   
     .contact-form-container,
     .contact-info {
@@ -402,7 +444,7 @@ h1 {
         width: 50%;
         height: auto;
       }
-    
+
       .hamburger {
         display: block; 
       }
