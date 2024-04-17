@@ -207,12 +207,15 @@ h1 {
 
 .member {
     text-align: center;
+    
 }
 
 .caption {
     margin-top: 10px;
     padding-bottom: 100px;
 }
+
+
 
   .contact-section {
     display: flex;
@@ -457,6 +460,27 @@ h1 {
       padding: 20px;
     }
 
+    .pink-rect {
+
+      flex-direction: column;
+      height: auto;
+
+    }
+    .footer-text {
+      max-width: 356px; /* Allow text to take full width in mobile */
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .footer-button{
+      max-width: 325px;
+      margin: auto;
+      margin-bottom: 20px;
+
+    }
+
     .mySlides {
       width: 100%;
     }
@@ -543,6 +567,7 @@ h1 {
     
     .member {
         text-align: center;
+        font-family: 'Francis One', sans-serif;
     }
     
     .caption {
