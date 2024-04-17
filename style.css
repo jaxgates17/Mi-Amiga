@@ -456,4 +456,26 @@ h1 {
     .cta-button {
         margin-top: 20px; 
     }
+      .footer-button h2{
+        font-size: 30px;
+      }
+      * {
+      box-sizing: border-box;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 100px;
+        padding: 100px;
+    }
+    
+    .member {
+        text-align: center;
+    }
+    
+    .caption {
+        margin-top: 10px;
+        padding-bottom: 100px;
+    }
+
   }
