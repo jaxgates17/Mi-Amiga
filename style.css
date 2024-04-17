@@ -76,6 +76,12 @@ header {
 .testimonial {
   padding: 20px;
   position: relative; 
+  font-size: 20px;
+  
+}
+
+#testimonial1 {
+  margin-bottom: 50px;
 }
 
 #footer1 {
@@ -90,16 +96,19 @@ header {
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
-  font-size: 24px;
+  font-size: 100px;
   cursor: pointer;
 }
 
 .left-arrow {
-  left: -30px;
+  margin-top: -50px;
+  left: -500px;
+  
 }
 
 .right-arrow {
-  right: -30px;
+  margin-top: -50px;
+  right: -500px;
 }
 .slide-arrow:hover {
   color: #ff69b4; 
@@ -520,6 +529,25 @@ h1 {
     .contact-section {
       flex-direction: column;
       padding: 20px;
+    }
+
+    .slide-arrow {
+      color: white;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: transparent;
+      border: none;
+      font-size: 48px;
+      cursor: pointer;
+    }
+    
+    .left-arrow {
+      left: -15px;
+    }
+    
+    .right-arrow {
+      right: -15px;
     }
 
     .pink-rect {
