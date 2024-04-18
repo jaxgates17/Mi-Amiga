@@ -1,20 +1,26 @@
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
 #logo {
-  width: 350px;
-  height: 64px;
+    width: 350px;
+    height: 64px;
 }
 
 #hero {
-  width: 100%;
+    width: 100%;
 }
 
 #hands {
-  width: 100%;
+    width: 100%;
 }
-
 header {
-  background-color: #004B84;
-  height: 161px;
-  z-index: 1000;
+    background-color: #004B84;
+    height: 161px;
+    z-index: 1000;
+
 }
 
 .closebtn {
@@ -22,45 +28,43 @@ header {
 }
 
 #hero-section {
+  position: relative; 
   display: grid; 
-  position: relative;
-  text-align: center;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-align: center; 
 }
 
 .hero-content {
   position: absolute;
-  top: 20px;
+  top: 20px; 
   left: 20px;
-  transform: translate(0, 0);
+  transform: translate(0, 0); 
   margin-bottom: 20px;
   color: black;
-  text-align: left;
+  text-align: left; 
 }
-
-.hero-content h1 {
+.hero-content h1{
   font-size: 55px;
 }
-
-.hero-content a {
+.hero-content a{
   font-size: 40px;
 }
 
 #hero {
-  grid-row: 1 / 3;
-  width: 100%;
-  height: auto;
-  display: block;
+  grid-row: 1 / 3; 
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
 .cta-button1 {
   background: none;
   color: black;
   padding: 10px 20px;
-  text-decoration: underline;
-  border: none;
+  text-decoration: underline; 
+  border: none; 
   border-radius: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',sans-serif;
+
 }
 
 .testimonials-section {
@@ -75,6 +79,7 @@ header {
   position: relative; 
   max-width: 600px; 
   margin: auto; 
+  
 }
 
 .testimonial {
@@ -177,6 +182,8 @@ h2 {
   width: 60%;
   margin: 0 auto;
   padding: 20px;
+  
+  
 }
 
 #services-section h2 {
@@ -233,8 +240,9 @@ h2 {
 details {
   background-color: #f9f9f9; 
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: none;
+
 }
 
 summary {
@@ -412,12 +420,6 @@ h1 {
   transition: background-color 0.3s; 
 }
 
-#wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-
 * { box-sizing: border-box; }
 
 .slideshow-container {
@@ -499,6 +501,8 @@ h1 {
 #background-footer {
     background-color: #004B84; 
     color: #fff; 
+
+
 }
 
 .footer-content {
@@ -561,6 +565,7 @@ h1 {
 
       flex-direction: column;
       height: auto;
+      margin-top: 40px;
 
     }
     .footer-text {
