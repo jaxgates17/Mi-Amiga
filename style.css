@@ -5,8 +5,8 @@
 }
 
 #logo {
-    width: 400px;
-    height: 40px;
+    width: 350px;
+    height: 64px;
 }
 
 #hero {
@@ -63,6 +63,7 @@ header {
   text-decoration: underline; 
   border: none; 
   border-radius: 0;
+  font-family: 'Roboto',sans-serif;
 
 }
 
@@ -109,13 +110,13 @@ header {
 
 .left-arrow {
   margin-top: -50px;
-  left: -500px;
+  left: -200px;
   
 }
 
 .right-arrow {
   margin-top: -50px;
-  right: -500px;
+  right: -200px;
 }
 .slide-arrow:hover {
   color: #ff69b4; 
@@ -170,9 +171,9 @@ nav {
 
 h2 {
     font-size: 45px;
-    font-family: Francis system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto',sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 2px black;
+    
 }
 
 #services-section {
@@ -244,6 +245,7 @@ summary {
   font-weight: bold;
   font-size: 1.2em;
   cursor: pointer;
+  font-family: 'Roboto',sans-serif;
 }
 
 summary::-webkit-details-marker {
@@ -262,7 +264,7 @@ details[open] summary::after {
 h1 {
     text-align: center;
     font-size: 20px;
-    font-family: Francis system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 
 * {
@@ -472,7 +474,7 @@ h1 {
   margin-left: 100px;
   margin-right: 100px;
   font-size: 45px;
-  font-family: 'Francis One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
   border: none;
   max-width: 550px; 
@@ -485,7 +487,7 @@ h1 {
   background-color: #004B84; 
   color: #ffffff; 
   border: none;
-  font-family: 'Francis One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 35px;
   cursor: pointer;
   transition: background-color 0.3 ease;
@@ -605,6 +607,7 @@ h1 {
         flex-direction: column;
         width: 200px; 
         border-radius: 5px;
+
       }
     
       .nav-links li {
@@ -660,7 +663,7 @@ h1 {
     
     .member {
         text-align: center;
-        font-family: 'Francis One', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .caption {
