@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Amiga</title>
+    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -12,24 +13,23 @@
 </head>
 <body>    
     <div id="wrapper">
-        <header>
-            <nav>
-                <a href="index.html"><img id="logo" src="images/AMIGA_LOGO.png" alt="logo"></a>
-                    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        &#9776;</button>
-                <div>
-                    <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <aside>
-            </aside>
-            
-        </header>
+      <header>
+        <nav>
+          <a href="index.html"><img id="logo" src="images/AMIGA_LOGO.png" alt="logo"></a>
+          <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" onclick="toggleMenu()">
+            &#9776;
+          </button>
+          <div id="nav-menu" class="nav-links">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+            <ul>
+              <li><a style="font-family:'Roboto',sans-serif" href="index.html">Home</a></li>
+              <li><a style="font-family:'Roboto',sans-serif" href="about.html">About</a></li>
+              <li><a style="font-family:'Roboto',sans-serif" href="services.html">Services</a></li>
+              <li><a style="font-family:'Roboto',sans-serif" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
+      </header>
         <main>
 
         <section id="services-section">
