@@ -52,3 +52,13 @@ function showSlides() {
       rightArrow.addEventListener('click', () => moveSlide(1));
     }
   });
+
+  function toggleMenu() {
+    console.log("test")
+    var menu = document.getElementById('nav-menu');
+    if (menu.style.left === '0px') {
+      menu.style.left = '-100%'; // Hide menu
+    } else {
+      menu.style.left = '0px'; // Show menu
+    }
+  }
